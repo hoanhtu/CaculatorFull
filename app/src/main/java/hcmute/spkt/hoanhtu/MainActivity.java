@@ -44,6 +44,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 edScreen.setText("");
+                flag=true;
+                flag1=true;
             }
         });
 
@@ -123,6 +125,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Separate();
+                flag=true;
             }
         });
     }
